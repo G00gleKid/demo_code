@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for dir in models schemas routers services constants)",
+      "Bash(do touch \"backend/app/$dir/__init__.py\")",
+      "Bash(done)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(uv run python:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(cd:*)",
+      "Bash(npm run build:*)",
+      "Bash(uv run alembic:*)"
+    ]
+  }
+}
